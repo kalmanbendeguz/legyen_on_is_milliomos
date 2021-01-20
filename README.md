@@ -6,7 +6,7 @@ Használat előtt olvasd el a felhasználói dokumentációt!
 
 ## Fordítás, futtatás
 ### GCC-vel:
-A forrásmappában add ki a parancsot:
+A **legyen_on_is_milliomos** mappában add ki a parancsot:
 `gcc -o jatek dicsoseg.c jatek.c segitseg.c sorkerdes.c main.c`
 
 Majd a jatek.exe-t elindítva mehet a játék.
