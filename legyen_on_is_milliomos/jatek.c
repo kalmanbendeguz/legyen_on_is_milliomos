@@ -137,7 +137,7 @@ int jatek(){
             char valasztas;
             getchar();
             printf("\n%d. kérdés\nKategória: %s\n%s\nA: %s\nB: %s\nC: %s\nD: %s\n",k+1,mozgo1->kategoria, mozgo1->kerdess, mozgo1->a,mozgo1->b,mozgo1->c,mozgo1->d);
-            printf("[%c]\n",mozgo1->valasz);
+            //printf("[%c]\n",mozgo1->valasz);
             valasz:valasztas=getchar();
             valasztas=toupper(valasztas);
             f:switch (valasztas){

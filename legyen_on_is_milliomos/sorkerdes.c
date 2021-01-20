@@ -123,7 +123,7 @@ int sorkerdes(){
     }
     printf("SORKÉRDÉS:\n");
     printf("Kategória: %s\n%s\n\nA: %s\nB: %s\nC: %s\nD: %s\n",mozgo1->kategoria,mozgo1->kerdess,mozgo1->a,mozgo1->b,mozgo1->c,mozgo1->d);
-    printf("[%s]\n",mozgo1->valasz);
+    //printf("[%s]\n",mozgo1->valasz);
     unsigned idokezd=time(NULL);
     char sorvalasz[4];
     scanf("%s",&sorvalasz);
